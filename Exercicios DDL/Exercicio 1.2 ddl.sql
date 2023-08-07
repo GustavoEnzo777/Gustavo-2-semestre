@@ -41,7 +41,7 @@ create table Aluguel
 IdAluguel int primary key identity,
 IdVeiculo int foreign key references Veiculo(IdVeiculo),
 IdCliente int foreign key references Cliente(IdCliente),
-Protocolo varchar
+Protocolo varchar(20)
 )
 
 select * from Empresa
@@ -50,3 +50,4 @@ select * from Modelo
 select * from Marca
 select * from Veiculo
 select * from Aluguel
+

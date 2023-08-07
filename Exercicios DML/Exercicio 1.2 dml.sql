@@ -8,7 +8,7 @@ insert into Marca values('GM')
 
 insert into Modelo values('Captiva')
 
-insert into Veiculo values(1, 1, 'BRA2E19')
+insert into Veiculo values(1, 1, 1, 'BRA2E19')
 
 insert into Aluguel values(1, 1, 'Alugado')
 
