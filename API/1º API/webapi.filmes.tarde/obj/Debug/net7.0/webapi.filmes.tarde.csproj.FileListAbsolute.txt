@@ -64,3 +64,11 @@ C:\Users\49816214857\Desktop\Gustavo-2-semestre\API\1º API\webapi.filmes.tarde\
 C:\Users\49816214857\Desktop\Gustavo-2-semestre\API\1º API\webapi.filmes.tarde\obj\Debug\net7.0\webapi.filmes.tarde.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\49816214857\Desktop\Gustavo-2-semestre\API\1º API\webapi.filmes.tarde\bin\Debug\net7.0\webapi.filmes.tarde.xml
 C:\Users\49816214857\Desktop\Gustavo-2-semestre\API\1º API\webapi.filmes.tarde\obj\Debug\net7.0\webapi.filmes.tarde.xml
+C:\Users\49816214857\Desktop\Gustavo-2-semestre\API\1º API\webapi.filmes.tarde\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\49816214857\Desktop\Gustavo-2-semestre\API\1º API\webapi.filmes.tarde\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\49816214857\Desktop\Gustavo-2-semestre\API\1º API\webapi.filmes.tarde\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\49816214857\Desktop\Gustavo-2-semestre\API\1º API\webapi.filmes.tarde\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\49816214857\Desktop\Gustavo-2-semestre\API\1º API\webapi.filmes.tarde\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\49816214857\Desktop\Gustavo-2-semestre\API\1º API\webapi.filmes.tarde\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\49816214857\Desktop\Gustavo-2-semestre\API\1º API\webapi.filmes.tarde\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\49816214857\Desktop\Gustavo-2-semestre\API\1º API\webapi.filmes.tarde\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
