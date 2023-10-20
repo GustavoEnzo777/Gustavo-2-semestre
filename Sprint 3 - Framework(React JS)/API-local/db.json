@@ -1,0 +1,20 @@
+{
+  "imc": [
+    {
+      "nome": "Miguelito",
+      "altura": "1.99",
+      "peso": 87,
+      "situacao": "Magrao",
+      "imc": 19,
+      "id": 2
+    },
+    {
+      "nome": "Eduardo",
+      "altura": "1.67",
+      "peso": 90,
+      "situacao": "Ta laskado",
+      "imc": 45.9,
+      "id": 3
+    }
+  ]
+}

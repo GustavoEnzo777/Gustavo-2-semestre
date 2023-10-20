@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aPSGYRbh2DH17217/SH9eMVglcwOFKukqjHrH8Hg7ojyLp8zKCLTkL0FOHGdTqSOFeqX3/Hfd9+SZ7to0MpIaQ==",
+  "dgSpecHash": "pnPFDYAfryfaQO9Ej7IhKJkqj5zE3HoHj7JJffAFvAUu7ZXi+pKzSsmvSIJ3+f7xxfc20cakQBnhf7VAn1/uoA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\49816214857\\Desktop\\Gustavo-2-semestre\\Event+_Tarde_CF\\webapi.event+.tarde\\webapi.event+.tarde.csproj",
+  "projectFilePath": "C:\\Users\\49816214857\\Desktop\\Gustavo-2-semestre\\Event+\\Event+_Tarde_CF\\webapi.event+.tarde\\webapi.event+.tarde.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\49816214857\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\49816214857\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
