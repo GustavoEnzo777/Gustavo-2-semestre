@@ -8,10 +8,23 @@
 </head>
 
 <body>
-    <form>
+    <form onsubmit="cadastrar(event)">
+
+        <label for="nome">Nome</label>
+        <input type="text" placeholder=" ... " id="nome" />
+        <br /><br />
+
+        <label for="telefone">Telefone</label>
+        <input type="text" placeholder=" ... " id="telefone" />
+        <br /><br />
+
         <label for="cep">CEP</label>
         <input onblur="chamarApi()" type="number" placeholder="digite o cep" id="cep" autocomplete="off" />
         <span id="not-found"></span>
+        <br /><br />
+
+        <label for="">Nº</label>
+        <input type="number" placeholder=" ... " id="numero" />
         <br /><br />
 
         <label for="endereco">Endereço</label>
@@ -29,10 +42,12 @@
         <label for="estado">Estado</label>
         <input type="text" placeholder=" ... " id="estado" />
         <br /><br />
+
+        <button>Salvar contato</button>
     </form>
 
     <script>
-        //get
+        //getz
         // const retorno = fetch("https://viacep.com.br/ws/02120001/json/")
         // .then((retorno) => {
         //     // console.log(retorno);
@@ -43,6 +58,38 @@
         // .catch((erro) => {
         //     console.log("Deu ruim na api");
         // })//rejeitada -->
+
+        const urlLocal = "http://localhost:3000/contatos";
+
+        async function cadastrar(e) {
+            e.preventDefault();
+
+            const nome = document.getElementById("nome").value;
+            const telefone = document.getElementById("telefone").value;
+            const numero = document.getElementById("numero").value;
+            const cep = document.getElementById("cep").value;
+            const endereco = document.getElementById("endereco").value;
+            const bairro = document.getElementById("bairro").value;
+            const cidade = document.getElementById("cidade").value;
+            const estado = document.getElementById("estado").value;
+
+            const objDados = { nome, telefone, cep, endereco, bairro, numero, cidade, estado, }
+
+            try {
+                const promise = await fetch(urlLocal, {
+                    //transforma um objeto em json
+                    body: JSON.stringify(objDados),
+                    headers: { "Content-Type": "application/json" },
+                    method: "post"
+                });
+
+                const retorno = promise.json();//pega o retorno da api
+                console.log(retorno);
+
+            } catch (error) {
+                alert("Deu ruim: " + error)
+            }
+        }//fim da funcao cadastrar
 
         async function chamarApi() {
             const cep = document.getElementById("cep").value;

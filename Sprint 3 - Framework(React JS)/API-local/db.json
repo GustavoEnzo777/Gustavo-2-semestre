@@ -1,19 +1,24 @@
 {
-  "imc": [
+  "contatos": [
     {
-      "nome": "Miguelito",
-      "altura": "1.99",
-      "peso": 87,
-      "situacao": "Magrao",
-      "imc": 19,
+      "cep": "02120001",
+      "endereco": "Rua Curuçá",
+      "bairro": "Vila Maria",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "nome": "Enzo",
+      "telefone": "40020922",
       "id": 2
     },
     {
-      "nome": "Eduardo",
-      "altura": "1.67",
-      "peso": 90,
-      "situacao": "Ta laskado",
-      "imc": 45.9,
+      "nome": "Pedro",
+      "telefone": "40028922",
+      "numero": "113",
+      "cep": "08311400",
+      "endereco": "Travessa dos Caraibebes",
+      "bairro": "Jardim Rodolfo Pirani",
+      "cidade": "São Paulo",
+      "estado": "SP",
       "id": 3
     }
   ]
