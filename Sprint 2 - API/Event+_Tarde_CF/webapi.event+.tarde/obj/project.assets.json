@@ -3344,11 +3344,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\49816214857\\Desktop\\Gustavo-2-semestre\\Event+\\Event+_Tarde_CF\\webapi.event+.tarde\\webapi.event+.tarde.csproj",
+      "projectUniqueName": "C:\\Users\\49816214857\\Desktop\\Gustavo-2-semestre\\Sprint 2 - API\\Event+_Tarde_CF\\webapi.event+.tarde\\webapi.event+.tarde.csproj",
       "projectName": "webapi.event+.tarde",
-      "projectPath": "C:\\Users\\49816214857\\Desktop\\Gustavo-2-semestre\\Event+\\Event+_Tarde_CF\\webapi.event+.tarde\\webapi.event+.tarde.csproj",
+      "projectPath": "C:\\Users\\49816214857\\Desktop\\Gustavo-2-semestre\\Sprint 2 - API\\Event+_Tarde_CF\\webapi.event+.tarde\\webapi.event+.tarde.csproj",
       "packagesPath": "C:\\Users\\49816214857\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\49816214857\\Desktop\\Gustavo-2-semestre\\Event+\\Event+_Tarde_CF\\webapi.event+.tarde\\obj\\",
+      "outputPath": "C:\\Users\\49816214857\\Desktop\\Gustavo-2-semestre\\Sprint 2 - API\\Event+_Tarde_CF\\webapi.event+.tarde\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\49816214857\\AppData\\Roaming\\NuGet\\NuGet.Config",
