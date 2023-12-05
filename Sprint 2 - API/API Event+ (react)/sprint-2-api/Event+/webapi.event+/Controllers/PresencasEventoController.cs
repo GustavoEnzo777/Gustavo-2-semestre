@@ -51,7 +51,7 @@ namespace webapi.event_.Controllers
         {
             try
             {
-                return (Ok(_presencasEventoRepository.ListarMinhas));
+                return Ok(_presencasEventoRepository.ListarMinhas(id));
             }
             catch (Exception erro)
             {
